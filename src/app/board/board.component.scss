@@ -1,0 +1,7 @@
+$column-width: 300px;
+
+main {
+    display: grid;
+    grid-template-columns: $column-width $column-width $column-width;
+    height: 3 * $column-width;
+}
