@@ -1,0 +1,15 @@
+button {
+    width: 100%;
+    aspect-ratio: 1;
+    color: #fff;
+    font-size: 200px;
+    font-weight: 900;
+    background-color: #338;
+    border: 5px #115 solid;
+    border-radius: 15px;
+}
+@media screen and (max-width: 900px) {
+    button {
+        font-size: 20vw;
+    }
+}

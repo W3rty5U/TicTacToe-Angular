@@ -1,7 +1,22 @@
-$column-width: 300px;
-
 main {
   display: grid;
-  grid-template-columns: $column-width $column-width $column-width;
-  height: 3 * $column-width;
+  grid-template-columns: 300px 300px 300px;
+  grid-gap: 5px;
+  aspect-ratio: 1;
 }
+
+@media screen and (max-width: 900px) {
+  main {
+    grid-template-columns: 30vw 30vw 30vw;
+  }
+}
+
+button {
+  color: red;
+  font-size: 16pt;
+  padding: 5px 15px;
+  border: 3px red solid;
+  border-radius: 5px;
+  background-color: #00000000;
+}
+
